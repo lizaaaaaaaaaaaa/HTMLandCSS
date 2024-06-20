@@ -1,0 +1,124 @@
+*, *:after, *:before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul, ol {
+    list-style-type: none;
+}
+
+hr {
+    margin: 20px 0;
+}
+
+body {
+    font: 16px sans-serif;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 960px;
+    padding: 20px 30px 0;
+    margin: 0 auto;
+}
+
+.container-third {
+    max-width: 1200px;
+    padding: 20px 0;
+    margin: 0 auto;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    gap: 0 50px;
+}
+
+.nav ul {
+    display: flex;
+    gap: 0 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.active {
+    color: #000;
+    text-decoration: underline !important;
+}
+
+.quote {
+    padding: 25px 0 15px 20px;
+}
+
+.content {
+    max-width: 720px;
+}
+
+.content p {
+    padding-bottom: 10px;
+}
+
+.player {
+    padding-bottom: 20px;
+}
+
+.player__name {
+    padding-bottom: 30px;
+    font-size: 40px;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 23px 13px;
+}
+
+.cards > span {
+    padding: 0 25px;
+    background: rgb(224 224 224);
+    font-size: 60px;
+}
+
+.suit {
+    font-size: 70px;
+}
+
+.red {
+    color: #8f0100;
+}
+
+.center {
+    text-align: center;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    justify-content: space-between;
+    padding: 20px 0;
+    border-bottom: 2px solid #e2e2e2;
+}
+
+.product {
+    border: 2px solid #e2e2e2;
+    border-radius: 50px;
+    padding: 50px 30px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.product img {
+    width: 150px;
+    height: 110px;
+    display: block;
+    margin-bottom: 25px;
+}
+
+.end {
+    margin-top: 15px;
+    text-align: center;
+}
