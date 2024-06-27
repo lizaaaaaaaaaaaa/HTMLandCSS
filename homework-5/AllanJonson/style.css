@@ -82,10 +82,16 @@ section button:hover{
     transition: 1s;
 }
 
-main {
+.contacts {
     max-width: 1200px;
     padding: 0 20px;
     margin: 0 auto;
+}
+
+main {
+    background-image: url("contacts__back.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .contacts__title {
