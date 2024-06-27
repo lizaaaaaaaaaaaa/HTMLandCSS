@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.active{
+    color: #365454;
+}
+/*-------------------header----------------------*/
+header{
+    font-family: "Orbitron", sans-serif;
+    height: 10vh;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+header nav{
+   width: 60%;
+}
+header nav ul{
+    width: 100%;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+header nav ul a{
+    text-decoration: none;
+    color: #868181;
+    transition: 0.5s;
+    font-size: 18px;
+}
+header nav ul a:hover{
+    color: #051c13;
+    transition: 1s;
+}
+
+header div{
+    text-align: center;
+}
+
+/*-------------------section----------------------*/
+section{
+    font-family: "Orbitron", sans-serif;
+    line-height: 1.9;
+}
+
+.section__main {
+    height: 90vh;
+    background-image: url(img.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+
+.first-text{
+    margin-top: 10vh;
+}
+section p{
+    font-size: 20px;
+}
+section h1{
+    font-size: 100px;
+    letter-spacing: 40px;
+    margin: 10px 0;
+}
+section button{
+    width: 200px;
+    height: 40px;
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    transition: 1s;
+}
+section button:hover{
+  transform: scale(1.1);
+    transition: 1s;
+}
+
+main {
+    max-width: 1200px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+.contacts__title {
+    font-size: 40px;
+    padding: 25px 0 50px;
+}
+
+.contacts > h3 {
+    padding: 35px 0  15px;
+    font-size: 25px;
+    letter-spacing: 3px;
+}
+
+.contacts ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    letter-spacing: 1.5px;
+}
+
+.flexbox {
+    display: flex;
+    gap: 35px;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 50px 0 70px;
+}
+
+.flexbox > div > h3 {
+    font-size: 25px;
+}
+
+.flexbox > div {
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+}
+
+

@@ -1,0 +1,144 @@
+*, *:before, *:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1400px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+.pink, .black {
+    height: 50vh;
+    text-align: center;
+}
+
+.pink__title, .black__title {
+    font-size: 65px;
+    padding: 50px 0;
+    text-transform: capitalize;
+}
+
+.pink__text, .black__text {
+    font-size: 20px;
+    line-height: 1.4;
+    width: 100%;
+}
+
+.pink__text:last-child, .black__text:last-child {
+    padding-top: 20px;
+}
+
+.pink {
+    background-color: #ffc1cb;
+    color: #272727;
+}
+
+.black {
+    background-color: #272727;
+    color: white;
+}
+
+.title {
+    font-size: 150px;
+    letter-spacing: 5px;
+    padding-top: 50px;
+    text-align: center;
+    text-shadow: 5px 3px 4px rgba(0, 0, 0, 0.28);
+    text-transform: capitalize;
+}
+
+.title span {
+    text-transform: uppercase;
+}
+
+.colors {
+    padding-top: 250px;
+}
+
+.colors ul {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+.colors__item {
+    width: 248px;
+    height: 248px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.colors__title {
+    font-size: 30px;
+    text-transform: capitalize;
+}
+
+.colors__text {
+    font-size: 21px;
+}
+
+.colors .black {
+    border: 2px solid #17253a;
+}
+
+.red {
+    background-color: #FF0000;
+    border: 2px solid #984450;
+}
+
+.green {
+    background-color: #00FF00;
+    border: 2px solid #367c69;
+}
+
+.blue {
+    background-color: #0000FF;
+    border: 2px solid #48638d;
+}
+
+.fuchsia {
+    background-color: #FF00FF;
+    border: 2px solid #a13ebb;
+}
+
+.white {
+    background-color: #ffffff;
+    border: 2px solid #b1c0d1;
+}
+
+.yellow {
+    background-color: #FFFF00;
+    border: 2px solid #6e9193;
+}
+
+.purple {
+    background-color: #800080;
+    border: 2px solid #55528a;
+}
+
+.maroon {
+    background-color: #800000;
+    border: 2px solid #6a263b;
+}
+
+.olive {
+    background-color: #808000;
+    border: 2px solid #446056;
+}
+
+.white-text {
+    color: #ffffff;
+}
+
+.black__text {
+    color: #272727;
+}
