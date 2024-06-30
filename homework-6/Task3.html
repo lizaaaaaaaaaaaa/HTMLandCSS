@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Task 3</title>
+    <style>
+        *, *:before, *:after {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .flexbox {
+            display: flex;
+            flex-direction: column;
+            /*max-height: 100vh;*/
+        }
+
+        header, footer {
+            height: 22vh;
+            background: #D9D9D9;
+        }
+
+        main {
+            height: calc(100vh - 22vh * 2);
+            display: flex;
+        }
+
+        .section-ord {
+            height: 100%;
+            width: 27vw;
+            background: #C0BDBD;
+        }
+
+        .section-middle {
+            height: 100%;
+            width: calc(100vw - 27vw * 2);
+            display: flex;
+            flex-direction: column;
+        }
+
+        .dark, .light {
+            height: 50%;
+        }
+
+        .dark {
+            background: #827878;
+        }
+
+        .light {
+            background: #B7ADAD;
+        }
+    </style>
+</head>
+<body>
+<div class="flexbox">
+    <header></header>
+    <main>
+        <section class="section-ord"></section>
+        <section class="section-middle">
+            <div class="dark"></div>
+            <div class="light"></div>
+        </section>
+        <section class="section-ord"></section>
+    </main>
+    <footer></footer>
+</div>
+</body>
+</html>
