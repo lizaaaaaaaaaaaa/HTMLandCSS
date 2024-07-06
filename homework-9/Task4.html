@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Task 4</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            font-family: "Inter", sans-serif;
+            font-size: 18px;
+            font-weight: 400;
+            background-color: #65b1e3;
+        }
+
+        .wrapper {
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        form {
+            border-left: 1px solid #6ca2c8;
+            border-right: 1px solid #6ca2c8;
+            border-bottom: 1px solid #6ca2c8;
+            border-top: 1px solid #e2e2e2;
+            border-bottom-left-radius: 5px;
+            border-bottom-right-radius: 5px;
+            padding: 20px;
+            width: 500px;
+            background-color: #ffffff;
+            text-align: right;
+        }
+
+        h2 {
+            border-left: 1px solid #6ca2c8;
+            border-right: 1px solid #6ca2c8;
+            border-top: 1px solid #6ca2c8;
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+            background-color: #ffffff;
+            width: 500px;
+            padding: 20px;
+        }
+
+        h2 > a {
+            text-decoration: none;
+            color: inherit;
+            font-weight: 200;
+        }
+
+        form > input {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            font-weight: inherit;
+            font-family: inherit;
+            font-size: inherit;
+            border: 1px solid #9d9aa1;
+        }
+
+        form > input::placeholder {
+            color: #9d9aa1;
+            font-weight: inherit;
+            font-family: inherit;
+            font-size: inherit;
+        }
+
+        form > input:focus {
+            outline: none;
+            border: 1px solid #ffab04;
+        }
+
+        form > button {
+            font-family: inherit;
+            font-size: inherit;
+            padding: 10px 15px;
+            border: 1px solid #ffab04;
+            font-weight: 800;
+            background: linear-gradient(#ffffff, #dbdcde);
+            transition: .3s;
+        }
+
+        form > button:hover {
+            transform: scale(1.05);
+            transition: .4s;
+        }
+    </style>
+</head>
+<body>
+<div class="wrapper">
+    <h2>
+        New to Twitter?
+        <a href="#">Sign up</a>
+    </h2>
+    <form>
+        <input type="text" name="name" placeholder="Full name">
+        <input type="email" name="email" placeholder="Email">
+        <input type="password" name="password" placeholder="Password">
+        <button type="submit">Sign up to Twitter</button>
+    </form>
+</div>
+</body>
+</html>

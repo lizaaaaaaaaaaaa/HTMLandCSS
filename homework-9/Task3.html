@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Task 3</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            font-family: "Inter", sans-serif;
+            font-size: 18px;
+            font-weight: 400;
+        }
+
+        .wrapper {
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        form {
+            width: 430px;
+        }
+
+        form input {
+            padding: 15px 10px;
+            border: 1px solid #c1c1c1;
+            margin-bottom: 25px;
+        }
+
+        form input::placeholder {
+            color: #a2a2a0;
+            font-weight: 600;
+            font-size: inherit;
+            font-family: inherit;
+        }
+
+        form input:focus {
+            border: 1px solid #f7e000;
+            outline: none;
+        }
+
+        .name {
+            display: flex;
+            gap: 20px;
+            justify-content: space-between;
+        }
+
+        .input-short {
+            width: 50%;
+        }
+
+        .input-long {
+            width: 100%;
+        }
+
+        form > p {
+            padding: 10px 0 20px;
+            color: #a2a2a0;
+        }
+
+        form > p > a {
+            text-decoration: none;
+            color: #000;
+        }
+
+        form > button {
+            width: 100%;
+            padding: 10px;
+            font-weight: 600;
+            font-family: inherit;
+            font-size: inherit;
+            background: linear-gradient(#f4e101, #fbce00);
+            border-radius: 5px;
+            border: 1px solid #eab007;
+            text-shadow: 1px 0 2px #979797;
+        }
+    </style>
+</head>
+<body>
+<div class="wrapper">
+    <form>
+        <div class="name">
+            <input type="text" name="name" placeholder="First name" class="input-short">
+            <input type="text" name="lastname" placeholder="Last name" class="input-short">
+        </div>
+        <input type="email" name="email" placeholder="Email address" class="input-long">
+        <input type="password" name="password" placeholder="Password(6 or more characters)" class="input-long">
+        <p>By clicking Join Now, you agree to LinkedIn's <a href="#">User Agreement</a>, <a href="#">Privacy Policy</a>
+            and
+            <a href="#">Cookie Policy</a>.</p>
+        <button>Join now</button>
+    </form>
+</div>
+</body>
+</html>
