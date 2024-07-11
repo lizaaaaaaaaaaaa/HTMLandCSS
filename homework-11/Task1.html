@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Task 1</title>
+    <style>
+        html {
+            background-color: #212517;
+        }
+
+        *, *:before, *:after {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .loader {
+            width: 60px;
+            height: 60px;
+            background-color: #DED3A6;
+            animation: loader 1.5s ease-in-out infinite;
+        }
+
+        @keyframes loader {
+            0% {
+                transform: rotate(90deg);
+            }
+
+            25% {
+                transform: rotate(180deg);
+                background-color: #759242;
+            }
+
+            50% {
+                transform: rotate(270deg);
+            }
+
+            100% {
+                transform: rotate(360deg);
+                background-color: #DED3A6;
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="loader"></div>
+</body>
+</html>
