@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Task 1</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: "Josefin Sans", sans-serif;
+            font-size: 18px;
+            font-weight: 400;
+            background-color: #f0f0f0;
+            color: #373a39;
+            line-height: 1.2;
+        }
+
+        *, *:before, *:after {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        .container {
+            max-width: 1480px;
+            padding: 200px 20px 0;
+            margin: 0 auto;
+        }
+
+        h1 {
+            text-transform: capitalize;
+            text-align: center;
+            font-size: 24px;
+            font-weight: 500;
+            color: #181818;
+            padding-bottom: 20px;
+        }
+
+        table {
+            border-spacing: 0;
+            margin: 0 auto;
+        }
+
+        thead {
+            background-color: #2ba879;
+            color: #ffffff;
+            font-weight: 600;
+            text-transform: uppercase;
+            text-align: left;
+        }
+
+        thead > tr > th {
+            padding: 20px 15px 15px;
+        }
+
+        tbody {
+            font-weight: 500;
+        }
+
+        tbody > tr > td:nth-child(1),
+        tbody > tr > td:nth-child(4){
+            width: 400px;
+        }
+
+        tbody > tr > td:nth-child(2),
+        tbody > tr > td:nth-child(3){
+            width: 180px;
+        }
+
+        tbody > tr > td {
+            padding: 20px 15px;
+        }
+
+        tbody > tr:nth-child(odd) {
+            background-color: #e3efeb;
+        }
+
+        tbody > tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+
+        tbody > tr {
+            border-bottom: 2px solid #e2e9e6;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        tbody > tr:hover {
+            background-color: #f2fdf9;
+            transition: 0.3s;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h1>football records for all time</h1>
+    <table>
+
+        <thead>
+        <tr>
+            <th>Record</th>
+            <th>Holder</th>
+            <th>Country</th>
+            <th>Details</th>
+        </tr>
+        </thead>
+
+        <tbody>
+
+        <tr>
+            <td>Most Goals in a Calendar Year</td>
+            <td>Lionel Messi</td>
+            <td>Argentina</td>
+            <td>91 goals (2012)</td>
+        </tr>
+
+        <tr>
+            <td>Most World Cup Wins</td>
+            <td>Brazil</td>
+            <td>Brazil</td>
+            <td>5 titles (1958, 1962, 1970, 1994, 2002)</td>
+        </tr>
+
+        <tr>
+            <td>Most Goals in a World Cup</td>
+            <td>Marta</td>
+            <td>Brazil</td>
+            <td>17 goals (2003-2019)</td>
+        </tr>
+
+        <tr>
+            <td>Most Appearances in World Cup</td>
+            <td>Lothar Matthäus</td>
+            <td>Germany</td>
+            <td>25 matches (1982-1998)</td>
+        </tr>
+
+        <tr>
+            <td>Most Goals in a Single World Cup</td>
+            <td>Just Fontaine</td>
+            <td>France</td>
+            <td>13 goals (1958)</td>
+        </tr>
+
+        <tr>
+            <td>Most Consecutive International Goals</td>
+            <td>Abby Wambach</td>
+            <td>USA</td>
+            <td>184 goals (2001-2015)</td>
+        </tr>
+
+        </tbody>
+    </table>
+</div>
+</body>
+</html>
