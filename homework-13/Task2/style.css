@@ -1,0 +1,152 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.container {
+    max-width: 1140px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+ul {
+    list-style-type: none;
+}
+
+header {
+    height: 15vh;
+    display: flex;
+    align-items: center;
+}
+
+.header__list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0 60px;
+}
+
+.header__list > li > a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.content__wrapper {
+    background: #FBF6F3;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0 44px;
+    height: 85vh;
+}
+
+.content > img {
+    height: 100%;
+}
+
+.content__about {
+    display: flex;
+    flex-direction: column;
+    gap: 37px 0;
+}
+
+.content__about h2 {
+    font-size: 48px;
+    font-weight: inherit;
+}
+
+.content__price {
+    color: #AD0306;
+    font-size: 36px;
+}
+
+.content__currency {
+    display: flex;
+    gap: 0 27px;
+}
+
+.content__currency > li > button {
+    font-family: inherit;
+    background-color: inherit;
+    border: none;
+    font-size: 13px;
+}
+
+.red {
+    color: #B93536;
+}
+
+.gray {
+    color: #A19FA0;
+}
+
+.content__text {
+    padding-top: 11px;
+    font-weight: 600;
+    max-width: 324px;
+}
+
+.models {
+    padding: 212px 0 308px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 57px;
+}
+
+.models h2 {
+    font-size: 48px;
+    max-width: 502px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.models__box {
+    display: flex;
+    gap: 38px;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.models__box > li {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 4px 20px 0 rgba(139, 139, 139, 0.10);
+    border-radius: 32px;
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.models__box > li > img {
+    display: block;
+}
+
+.rated {
+    position: absolute;
+    top: -30px;
+}
+
+.price {
+    font-size: 24px;
+    font-weight: 700;
+    color: #106FDF;
+}
+
+.price-red {
+    color: #DD152D;
+}
