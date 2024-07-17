@@ -33,7 +33,7 @@ header {
     transition: .3s;
 }
 
-.nav__list > li > a:hover {
+.nav__list a:hover {
     color: #80753d;
     transition: .3s;
 }
