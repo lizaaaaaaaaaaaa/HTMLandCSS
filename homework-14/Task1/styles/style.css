@@ -38,6 +38,26 @@ header {
     transition: .3s;
 }
 
+.nav__list > li:nth-child(3) {
+    position: relative;
+}
+
+.nav__more {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    padding: 15px 20px 23px;
+    width: 160px;
+    background-color: rgba(255, 255, 255, 0.70);
+    top: -240px;
+    transition: top .4s;
+}
+
+.nav__list > li:nth-child(3):hover .nav__more {
+    top: 40px;
+    transition: top .5s;
+}
+
 .product {
     background: #F1DDC9;
     padding: 14px 10px 24px 0;
