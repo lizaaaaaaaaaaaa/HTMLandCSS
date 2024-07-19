@@ -122,7 +122,7 @@ header {
     background: #FFF;
 }
 
-.deals__container > li > img {
+.deals__container > li img {
     margin-top: -40px;
     display: block;
     padding-bottom: 32px;
