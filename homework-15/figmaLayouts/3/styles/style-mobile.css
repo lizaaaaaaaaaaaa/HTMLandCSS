@@ -1,0 +1,24 @@
+@media screen and (max-width: 375px) {
+    body {
+        font-size: 20px;
+    }
+
+    .container {
+        padding: 0 16px;
+    }
+
+    .content__inner {
+        gap: 18px 0;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    .btn__container {
+        padding-top: 14px;
+        justify-content: center;
+        flex-direction: column;
+        gap: 20px 0;
+    }
+}

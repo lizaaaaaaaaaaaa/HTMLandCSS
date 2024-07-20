@@ -1,0 +1,10 @@
+@media screen and (max-width: 768px) {
+    .box {
+       gap: 24px 48px;
+    }
+
+
+    .box li {
+        max-width: 323px;
+    }
+}

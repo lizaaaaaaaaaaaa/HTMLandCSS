@@ -1,0 +1,53 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Inter, sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    background-color: #F3F5F6;
+    color: #000;
+    line-height: 1.2;
+}
+
+.container {
+    max-width: 1228px;
+    padding: 64px 24px;
+    margin: 0 auto;
+}
+
+.box {
+    list-style-type: none;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 64px 32px;
+    flex-wrap: wrap;
+}
+
+.box li {
+    width: 372px;
+}
+
+.box img {
+    display: block;
+    width: 100%;
+    object-fit: cover;
+}
+
+.box h4 {
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    padding: 20px 0 15px;
+}
+
+.box p {
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    text-align: center;
+}

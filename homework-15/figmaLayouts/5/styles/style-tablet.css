@@ -1,0 +1,34 @@
+@media screen and (max-width: 768px) {
+    body {
+        font-size: 20px;
+    }
+    .content {
+        padding: 48px 0;
+    }
+
+    .content > div {
+        max-width: 100%;
+    }
+
+    iframe {
+        width: 100%;
+        height: 405px;
+    }
+
+    .top {
+        padding-bottom: 16px;
+    }
+
+    h1 {
+        font-size: 48px;
+        padding-bottom: 16px;
+    }
+
+    .mid ul {
+        padding-bottom: 32px;
+    }
+
+    .mid li {
+        margin-left: 29px;
+    }
+}
