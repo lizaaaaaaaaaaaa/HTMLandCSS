@@ -1,0 +1,36 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 35px;
+    color: #989898;
+}
+
+body {
+    padding: 10px;
+}
+
+header {
+    height: 20vh;
+    background-color: #d9d9d9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+main {
+    height: 80vh;
+    display: grid;
+    gap: 0 10px;
+    grid-template-columns: 3fr 1fr;
+}
+
+section, aside {
+    background-color: #d9d9d9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}

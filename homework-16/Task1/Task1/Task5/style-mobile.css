@@ -1,0 +1,32 @@
+@media screen and (max-width: 428px) {
+    main {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        grid-template-areas:
+                'second first'
+                'third fourth'
+                'fifth fifth';
+    }
+
+    main div:nth-child(1) {
+        grid-area: first;
+    }
+
+    main div:nth-child(2) {
+        grid-area: second;
+    }
+
+    main div:nth-child(3) {
+        grid-area: third;
+    }
+
+    main div:nth-child(4) {
+        grid-area: fourth;
+    }
+
+    main div:nth-child(5) {
+        grid-area: fifth;
+    }
+
+}
