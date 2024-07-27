@@ -54,3 +54,7 @@
 .col-md-6.mb-4 > .text-primary {
     color: #354c0c !important;
 }
+
+.col-md-4.mb-4 p {
+    min-height: 120px !important;
+}
